@@ -1,0 +1,436 @@
+/********************************************************************************************
+ * EECS2011: Fundamentals of Data Structures,  Winter 2019
+ * Assignment 1: Polygon Hierarchy
+ * Section: M
+ * Student Name: Umar Abdulselam
+ * Student EECS account: uaabduls
+ * Student ID number: 215995616
+ ********************************************************************************************/
+
+/**************************************** Polygon 1 *****************************************/
+For Polygon Builder: Enter 1
+For Simple Polygon Builder: Enter 2
+1
+
+How many sides in the polygon?
+5
+Enter the vertex coordinates beginning with the x-coordinate for the first vertex: 
+8.9
+Enter y-coordinate: 
+21.8
+Enter x-coordinate: 
+29.1
+Enter y-coordinate: 
+8.8
+Enter x-coordinate: 
+39.2
+Enter y-coordinate: 
+20.3
+Enter x-coordinate: 
+14
+Enter y-coordinate: 
+11
+Enter x-coordinate: 
+28
+Enter y-coordinate: 
+25
+
+==============================================================================================
+Polygon: 5 (8.9, 21.8) (29.1, 8.8) (39.2, 20.3) (14.0, 11.0) (28.0, 25.0) 
+
+Is simple: false
+Perimeter: 105.35
+Area: Cannot use this method to calculate the area of non-simple polygons.
+Is convex: false
+
+
+
+
+
+/**************************************** Polygon 2 *****************************************/
+For Polygon Builder: Enter 1
+For Simple Polygon Builder: Enter 2
+1
+
+How many sides in the polygon?
+7
+Enter the vertex coordinates beginning with the x-coordinate for the first vertex: 
+28
+Enter y-coordinate: 
+2
+Enter x-coordinate: 
+31
+Enter y-coordinate: 
+5
+Enter x-coordinate: 
+28
+Enter y-coordinate: 
+10
+Enter x-coordinate: 
+14
+Enter y-coordinate: 
+14
+Enter x-coordinate: 
+5
+Enter y-coordinate: 
+10
+Enter x-coordinate: 
+8
+Enter y-coordinate: 
+4
+Enter x-coordinate: 
+18
+Enter y-coordinate: 
+1
+
+==============================================================================================
+Polygon: 7 (28.0, 2.0) (31.0, 5.0) (28.0, 10.0) (14.0, 14.0) (5.0, 10.0) (8.0, 4.0) (18.0, 1.0) 
+
+Is simple: true
+Perimeter: 61.68
+Area: 227.0
+Is convex: true
+
+
+
+
+
+/**************************************** Polygon 3 *****************************************/
+For Polygon Builder: Enter 1
+For Simple Polygon Builder: Enter 2
+1
+
+How many sides in the polygon?
+9
+Enter the vertex coordinates beginning with the x-coordinate for the first vertex: 
+6
+Enter y-coordinate: 
+10
+Enter x-coordinate: 
+20
+Enter y-coordinate: 
+3
+Enter x-coordinate: 
+23
+Enter y-coordinate: 
+3
+Enter x-coordinate: 
+23
+Enter y-coordinate: 
+8
+Enter x-coordinate: 
+27
+Enter y-coordinate: 
+3
+Enter x-coordinate: 
+30
+Enter y-coordinate: 
+3
+Enter x-coordinate: 
+20
+Enter y-coordinate: 
+15
+Enter x-coordinate: 
+16
+Enter y-coordinate: 
+5
+Enter x-coordinate: 
+20
+Enter y-coordinate: 
+14
+
+==============================================================================================
+Polygon: 9 (6.0, 10.0) (20.0, 3.0) (23.0, 3.0) (23.0, 8.0) (27.0, 3.0) (30.0, 3.0) (20.0, 15.0) (16.0, 5.0) (20.0, 14.0) 
+
+Is simple: false
+Perimeter: 83.86
+Area: Cannot use this method to calculate the area of non-simple polygons.
+Is convex: false
+
+
+
+
+
+/**************************************** Polygon 4 *****************************************/
+For Polygon Builder: Enter 1
+For Simple Polygon Builder: Enter 2
+1
+
+How many sides in the polygon?
+13
+Enter the vertex coordinates beginning with the x-coordinate for the first vertex: 
+5
+Enter y-coordinate: 
+6
+Enter x-coordinate: 
+13
+Enter y-coordinate: 
+2
+Enter x-coordinate: 
+12
+Enter y-coordinate: 
+6
+Enter x-coordinate: 
+20
+Enter y-coordinate: 
+2
+Enter x-coordinate: 
+16
+Enter y-coordinate: 
+12
+Enter x-coordinate: 
+17
+Enter y-coordinate: 
+11
+Enter x-coordinate: 
+19
+Enter y-coordinate: 
+5
+Enter x-coordinate: 
+13
+Enter y-coordinate: 
+11
+Enter x-coordinate: 
+19
+Enter y-coordinate: 
+15
+Enter x-coordinate: 
+8
+Enter y-coordinate: 
+12
+Enter x-coordinate: 
+14
+Enter y-coordinate: 
+7
+Enter x-coordinate: 
+5
+Enter y-coordinate: 
+11
+Enter x-coordinate: 
+9
+Enter y-coordinate: 
+6
+
+==============================================================================================
+Polygon: 13 (5.0, 6.0) (13.0, 2.0) (12.0, 6.0) (20.0, 2.0) (16.0, 12.0) (17.0, 11.0) (19.0, 5.0) (13.0, 11.0) (19.0, 15.0) (8.0, 12.0) (14.0, 7.0) (5.0, 11.0) (9.0, 6.0) 
+
+Is simple: false
+Perimeter: 95.68
+Area: Cannot use this method to calculate the area of non-simple polygons.
+Is convex: false
+
+
+
+
+
+/**************************************** Polygon 5 *****************************************/
+For Polygon Builder: Enter 1
+For Simple Polygon Builder: Enter 2
+1
+
+How many sides in the polygon?
+13
+Enter the vertex coordinates beginning with the x-coordinate for the first vertex: 
+5
+Enter y-coordinate: 
+6
+Enter x-coordinate: 
+13
+Enter y-coordinate: 
+2
+Enter x-coordinate: 
+12
+Enter y-coordinate: 
+6
+Enter x-coordinate: 
+20
+Enter y-coordinate: 
+2
+Enter x-coordinate: 
+18
+Enter y-coordinate: 
+12
+Enter x-coordinate: 
+17
+Enter y-coordinate: 
+11
+Enter x-coordinate: 
+19
+Enter y-coordinate: 
+5
+Enter x-coordinate: 
+13
+Enter y-coordinate: 
+11
+Enter x-coordinate: 
+19
+Enter y-coordinate: 
+15
+Enter x-coordinate: 
+8
+Enter y-coordinate: 
+12
+Enter x-coordinate: 
+14
+Enter y-coordinate: 
+7
+Enter x-coordinate: 
+5
+Enter y-coordinate: 
+11
+Enter x-coordinate: 
+9
+Enter y-coordinate: 
+6
+
+==============================================================================================
+Polygon: 13 (5.0, 6.0) (13.0, 2.0) (12.0, 6.0) (20.0, 2.0) (18.0, 12.0) (17.0, 11.0) (19.0, 5.0) (13.0, 11.0) (19.0, 15.0) (8.0, 12.0) (14.0, 7.0) (5.0, 11.0) (9.0, 6.0) 
+
+Is simple: true
+Perimeter: 95.11
+Area: 82.0
+Is convex: false
+
+
+
+
+
+/**************************************** Polygon 6 *****************************************/
+For Polygon Builder: Enter 1
+For Simple Polygon Builder: Enter 2
+1
+
+How many sides in the polygon?
+22
+Enter the vertex coordinates beginning with the x-coordinate for the first vertex: 
+14
+Enter y-coordinate: 
+7
+Enter x-coordinate: 
+15
+Enter y-coordinate: 
+8
+Enter x-coordinate: 
+17
+Enter y-coordinate: 
+7
+Enter x-coordinate: 
+17
+Enter y-coordinate: 
+5
+Enter x-coordinate: 
+15
+Enter y-coordinate: 
+6
+Enter x-coordinate: 
+14
+Enter y-coordinate: 
+4
+Enter x-coordinate: 
+12
+Enter y-coordinate: 
+6
+Enter x-coordinate: 
+11
+Enter y-coordinate: 
+9
+Enter x-coordinate: 
+15
+Enter y-coordinate: 
+11
+Enter x-coordinate: 
+7
+Enter y-coordinate: 
+12
+Enter x-coordinate: 
+8
+Enter y-coordinate: 
+11
+Enter x-coordinate: 
+7
+Enter y-coordinate: 
+9
+Enter x-coordinate: 
+10
+Enter y-coordinate: 
+11
+Enter x-coordinate: 
+8
+Enter y-coordinate: 
+6
+Enter x-coordinate: 
+10
+Enter y-coordinate: 
+5
+Enter x-coordinate: 
+11
+Enter y-coordinate: 
+3
+Enter x-coordinate: 
+16
+Enter y-coordinate: 
+3
+Enter x-coordinate: 
+18
+Enter y-coordinate: 
+4
+Enter x-coordinate: 
+19
+Enter y-coordinate: 
+8
+Enter x-coordinate: 
+16
+Enter y-coordinate: 
+9
+Enter x-coordinate: 
+14
+Enter y-coordinate: 
+9
+Enter x-coordinate: 
+13
+Enter y-coordinate: 
+8
+
+==============================================================================================
+Polygon: 22 (14.0, 7.0) (15.0, 8.0) (17.0, 7.0) (17.0, 5.0) (15.0, 6.0) (14.0, 4.0) (12.0, 6.0) (11.0, 9.0) (15.0, 11.0) (7.0, 12.0) (8.0, 11.0) (7.0, 9.0) (10.0, 11.0) (8.0, 6.0) (10.0, 5.0) (11.0, 3.0) (16.0, 3.0) (18.0, 4.0) (19.0, 8.0) (16.0, 9.0) (14.0, 9.0) (13.0, 8.0) 
+
+Is simple: true
+Perimeter: 65.11
+Area: 50.0
+Is convex: false
+
+
+
+
+
+/**************************************** Polygon 7 *****************************************/
+For Polygon Builder: Enter 1
+For Simple Polygon Builder: Enter 2
+1
+
+How many sides in the polygon?
+4
+Enter the vertex coordinates beginning with the x-coordinate for the first vertex: 
+6
+Enter y-coordinate: 
+1
+Enter x-coordinate: 
+9
+Enter y-coordinate: 
+5
+Enter x-coordinate: 
+5
+Enter y-coordinate: 
+8
+Enter x-coordinate: 
+2
+Enter y-coordinate: 
+4
+
+==============================================================================================
+Polygon: 4 (6.0, 1.0) (9.0, 5.0) (5.0, 8.0) (2.0, 4.0) 
+
+Is simple: true
+Perimeter: 20.0
+Area: 25.0
+Is convex: true
